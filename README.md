@@ -17,12 +17,12 @@ End of the program.
 ## Program:
 ~~~
 import numpy as np
-a=np.array([[4,2],[2,4]])
-vals,vecs=np.linalg.eig(a)
-print("Eigen values are",vals,"and Eigen Vectors are",vecs)
+a=np.array([[-2,2,-3],[2,1,-6],[-1,-2,0]])
+values,vectors=np.linalg.eig(a)
+print("Eigen values are",values,"and Eigen Vectors are",vectors)
 ~~~
 
 ## Output:
-![Github Logo](eigen.png)
+![Github Logo](kumar.jpg)
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
